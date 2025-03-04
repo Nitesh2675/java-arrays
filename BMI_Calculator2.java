@@ -33,7 +33,7 @@ public class BMI_Calculator2 {
                 weightStatus[i] = "Obese";
             }
         }
-        
+    
         System.out.println("\nPerson\tHeight(m)\tWeight(kg)\tBMI\t\tStatus");
         for (int i = 0; i < n; i++) {
             System.out.printf("%d\t%.2f\t\t%.2f\t\t%.2f\t%s\n", (i + 1), personData[i][1], personData[i][0], personData[i][2], weightStatus[i]);
