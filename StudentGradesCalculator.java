@@ -40,7 +40,7 @@ public class StudentGradesCalculator {
                 grades[i] = "R";
             }
         }
-        
+    
         System.out.println("\nStudent\tPhysics\tChemistry\tMaths\tPercentage\tGrade");
         for (int i = 0; i < n; i++) {
             System.out.printf("%d\t%.2f\t%.2f\t%.2f\t%.2f%%\t%s\n", (i + 1), marks[i][0], marks[i][1], marks[i][2], percentages[i], grades[i]);
